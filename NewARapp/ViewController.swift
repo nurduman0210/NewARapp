@@ -2,6 +2,7 @@ import UIKit
 import SceneKit
 import ARKit
 import SpriteKit
+import FirebaseDatabase
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
@@ -25,6 +26,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let ref = Database.database().reference()
+        ref.child("a/doc_a/someId/name").setValue("Mike")
+        ref.childByAutoId().setValue(["name":"yussup", "age":34])
+        ref.child("a/doc_a/someId/position").setValue("xui")
+        
+
         
         UIApplication.shared.isIdleTimerDisabled = true
         
