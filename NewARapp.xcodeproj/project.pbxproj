@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC55C88D5D8A2980D60250B /* Pods_NewARapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610D7E2D7990F508812356DF /* Pods_NewARapp.framework */; };
 		7BFCF46D240EC4890018AC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFCF46C240EC4890018AC1C /* AppDelegate.swift */; };
 		7BFCF46F240EC4890018AC1C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFCF46E240EC4890018AC1C /* art.scnassets */; };
 		7BFCF471240EC4890018AC1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFCF470240EC4890018AC1C /* ViewController.swift */; };
 		7BFCF474240EC4890018AC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFCF472240EC4890018AC1C /* Main.storyboard */; };
 		7BFCF476240EC48E0018AC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFCF475240EC48E0018AC1C /* Assets.xcassets */; };
 		7BFCF479240EC48E0018AC1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFCF477240EC48E0018AC1C /* LaunchScreen.storyboard */; };
+		7BFCF481240ECE2F0018AC1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BFCF480240ECE2F0018AC1C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0551619D76EC36D69E2F616F /* Pods-NewARapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewARapp.debug.xcconfig"; path = "Target Support Files/Pods-NewARapp/Pods-NewARapp.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD24CD3D5C67B14F6788D71 /* Pods-NewARapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewARapp.release.xcconfig"; path = "Target Support Files/Pods-NewARapp/Pods-NewARapp.release.xcconfig"; sourceTree = "<group>"; };
+		610D7E2D7990F508812356DF /* Pods_NewARapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewARapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFCF469240EC4890018AC1C /* NewARapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewARapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFCF46C240EC4890018AC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BFCF46E240EC4890018AC1C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		7BFCF475240EC48E0018AC1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BFCF478240EC48E0018AC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BFCF47A240EC48E0018AC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFCF480240ECE2F0018AC1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC55C88D5D8A2980D60250B /* Pods_NewARapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				7BFCF46B240EC4890018AC1C /* NewARapp */,
 				7BFCF46A240EC4890018AC1C /* Products */,
+				953A8FEE5B9D3D19F5FD4BFA /* Pods */,
+				8EC82B70CDC5406D19DC8FA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +71,27 @@
 				7BFCF472240EC4890018AC1C /* Main.storyboard */,
 				7BFCF475240EC48E0018AC1C /* Assets.xcassets */,
 				7BFCF477240EC48E0018AC1C /* LaunchScreen.storyboard */,
+				7BFCF480240ECE2F0018AC1C /* GoogleService-Info.plist */,
 				7BFCF47A240EC48E0018AC1C /* Info.plist */,
 			);
 			path = NewARapp;
+			sourceTree = "<group>";
+		};
+		8EC82B70CDC5406D19DC8FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				610D7E2D7990F508812356DF /* Pods_NewARapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		953A8FEE5B9D3D19F5FD4BFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0551619D76EC36D69E2F616F /* Pods-NewARapp.debug.xcconfig */,
+				4FD24CD3D5C67B14F6788D71 /* Pods-NewARapp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BFCF47D240EC48E0018AC1C /* Build configuration list for PBXNativeTarget "NewARapp" */;
 			buildPhases = (
+				AC35929D98018DC6123DD2AB /* [CP] Check Pods Manifest.lock */,
 				7BFCF465240EC4890018AC1C /* Sources */,
 				7BFCF466240EC4890018AC1C /* Frameworks */,
 				7BFCF467240EC4890018AC1C /* Resources */,
+				E17AAE57AB9742BDBA88BB1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,12 +156,55 @@
 			files = (
 				7BFCF46F240EC4890018AC1C /* art.scnassets in Resources */,
 				7BFCF479240EC48E0018AC1C /* LaunchScreen.storyboard in Resources */,
+				7BFCF481240ECE2F0018AC1C /* GoogleService-Info.plist in Resources */,
 				7BFCF476240EC48E0018AC1C /* Assets.xcassets in Resources */,
 				7BFCF474240EC4890018AC1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC35929D98018DC6123DD2AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewARapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17AAE57AB9742BDBA88BB1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewARapp/Pods-NewARapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewARapp/Pods-NewARapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewARapp/Pods-NewARapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7BFCF465240EC4890018AC1C /* Sources */ = {
@@ -282,6 +354,7 @@
 		};
 		7BFCF47E240EC48E0018AC1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0551619D76EC36D69E2F616F /* Pods-NewARapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +373,7 @@
 		};
 		7BFCF47F240EC48E0018AC1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD24CD3D5C67B14F6788D71 /* Pods-NewARapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
